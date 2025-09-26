@@ -93,7 +93,7 @@ const calculateTotalPrice = (allProdcuts, productName) => {
   for (const item of allProdcuts) {
     if (item.name === productName) {
       sum = item.price * item.count;
-      return `Загальна кількість ${item.name} = ${sum}`;
+      return `Загальна вартість ${item.name} = ${sum}`;
     }
   }
 };
